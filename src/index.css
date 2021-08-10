@@ -1,13 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,600&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+  background-image: linear-gradient(
+    180deg,
+    hsla(155, 52%, 72%, 0.836),
+    hsl(155, 5%, 98%)
+  );
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.h-img {
+  transform: translateY(3px);
+  top: 10rem;
+  height: 20rem;
+  width: 70rem;
+  border-radius: 20px 20px 0px 0px;
+  opacity: 0.7;
+}
+
+.presentation-card {
+  position: relative;
+  background: white;
+  border-radius: 0px 0px 20px 20px;
+  width: 70rem;
+  height: 27rem;
+  box-shadow: 40rem;
+}
+
+.lotta-img {
+  position: absolute;
+  height: 20rem;
+  border-radius: 500px;
+  top: -37%;
+  left: 36%;
+  border-width: 10rem;
+  border-color: white;
+}
+.container-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.h1-1 {
+  text-align: center;
+  padding-top: 13rem;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 6px;
+  border-bottom: 4px solid rgb(222, 226, 228);
+  padding-bottom: 1rem;
+  width: 80%;
+}
+.p-1 {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 6px;
+  width: 80%;
+  padding: 10px;
+}
+
+@media (max-width: 1080px) {
+  /* For tablets: */
+  .h-img {
+    transform: translateY(3px);
+    top: 10rem;
+    height: 20rem;
+    width: 50rem;
+    border-radius: 20px 20px 0px 0px;
+    opacity: 0.7;
+  }
+  .presentation-card {
+    position: relative;
+    background: white;
+    border-radius: 0px 0px 20px 20px;
+    width: 50rem;
+    height: 27rem;
+    box-shadow: 40rem;
+  }
+  .lotta-img {
+    position: absolute;
+    height: 20rem;
+    border-radius: 500px;
+    top: -37%;
+    left: 29%;
+    border-width: 10rem;
+    border-color: white;
+  }
+  .container-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .h1-1 {
+    text-align: center;
+    padding-top: 13rem;
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 6px;
+    border-bottom: 4px solid rgb(222, 226, 228);
+    padding-bottom: 1rem;
+    width: 80%;
+  }
+  .p-1 {
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Nunito Sans", sans-serif;
+    letter-spacing: 6px;
+    width: 80%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For mobile phones: */
+  .h-img {
+    transform: translateY(3px);
+    top: 10rem;
+    height: 12rem;
+    width: 25rem;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .presentation-card {
+    width: 25rem;
+    height: 28rem;
+  }
+
+  .lotta-img {
+    position: absolute;
+    height: 13rem;
+    border-radius: 500px;
+    top: -23%;
+    left: 25%;
+  }
+
+  .h1-1 {
+    padding-top: 8rem;
+    font-size: 2rem;
+    letter-spacing: 6px;
+    width: 90%;
+  }
 }
