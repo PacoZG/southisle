@@ -43,7 +43,9 @@ const PresentationCard = () => {
           <h1 className="h1-2" style={{ paddingTop: "10px" }}>
             Educational Training
           </h1>
-          <h3 className="h3">Turku University of Applied Sciences</h3>
+          <h3 className="h3" style={{ fontSize: "16px" }}>
+            Turku University of Applied Sciences
+          </h3>
           <p className="p-3">Bachelor of Hospitality Management</p>
           <ul>
             <li className="li">Graduated in 2007</li>
@@ -54,6 +56,22 @@ const PresentationCard = () => {
           </ul>
         </div>
         <div className="column2">
+          <h1 className="h1-2">Community Envolvement</h1>
+          <h3 className="h3" style={{ fontSize: "16px" }}>
+            MLL Ruoholahti-Jätkäsaari local organisation
+          </h3>
+          <p className="p-3">Member of the Board 2021</p>
+          <p className="p-3">Member and Volunteer 2018</p>
+          <ul>
+            <li className="li">
+              Organising happenings for children wih the aim to bring local
+              families together
+            </li>
+            <li className="li">
+              Working proactively to help families by provding information for
+              help facilitated by the main organisation
+            </li>
+          </ul>
           <h1 className="h1-2">Work experience</h1>
         </div>
       </div>
