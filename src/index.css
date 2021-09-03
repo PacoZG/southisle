@@ -2,6 +2,7 @@
 
 body {
   min-height: 100%;
+  /* height: 100vh; */
   background-image: linear-gradient(
     180deg,
     hsla(155, 52%, 72%, 0.836),
@@ -21,14 +22,14 @@ body {
   width: 70rem;
   border-radius: 20px 20px 0px 0px;
   opacity: 0.7;
+  background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
 }
-
 .presentation-card {
   position: relative;
   background: white;
   border-radius: 0px 0px 20px 20px;
   width: 70rem;
-  height: 27rem;
+  height: 31rem;
   box-shadow: 40rem;
 }
 
@@ -36,7 +37,7 @@ body {
   position: absolute;
   height: 20rem;
   border-radius: 500px;
-  top: -37%;
+  top: -32%;
   left: 36%;
   border-width: 10rem;
   border-color: white;
@@ -45,6 +46,17 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.container-2 {
+  width: 70rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  gap: 3px;
+  margin-top: 10px;
 }
 
 .h1-1 {
@@ -58,95 +70,180 @@ body {
   padding-bottom: 1rem;
   width: 80%;
 }
+
+.h1-2 {
+  text-align: left;
+  margin: 0;
+  padding-left: 9px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  letter-spacing: 4px;
+  border-bottom: 3px solid rgb(222, 226, 228);
+  width: 90%;
+}
+
+.h3 {
+  margin: 0px;
+  text-align: left;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
 .p-1 {
   text-align: center;
   font-size: 1rem;
   font-family: "Nunito Sans", sans-serif;
+  opacity: 0.5;
   letter-spacing: 6px;
   width: 80%;
-  padding: 10px;
+  padding: 2rem;
+  margin: 0;
+}
+.p-2 {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 2px;
+  opacity: 0.6;
+  width: 80%;
+  padding: 5px;
+  margin: 0;
 }
 
-@media (max-width: 1080px) {
+.p-3 {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 15px;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 2px;
+  opacity: 0.6;
+  width: 90%;
+  margin: 0px;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 30px;
+  width: 50%;
+  background-color: white;
+  border-radius: 20px 0px 20px 0px;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 30px;
+  width: 50%;
+  background-color: white;
+  border-radius: 0px 20px 0px 20px;
+}
+
+ul {
+  margin: 4px;
+}
+
+.li {
+  text-align: left;
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 2px;
+  opacity: 0.6;
+  width: 80%;
+  padding: 5px;
+  margin: 0;
+}
+
+@media (max-width: 1120px) {
   /* For tablets: */
+  body {
+    padding: 3rem;
+  }
   .h-img {
-    transform: translateY(3px);
-    top: 10rem;
-    height: 20rem;
-    width: 50rem;
-    border-radius: 20px 20px 0px 0px;
-    opacity: 0.7;
+    width: 55rem;
   }
   .presentation-card {
-    position: relative;
-    background: white;
-    border-radius: 0px 0px 20px 20px;
-    width: 50rem;
-    height: 27rem;
-    box-shadow: 40rem;
+    width: 55rem;
+    height: 35rem;
   }
   .lotta-img {
-    position: absolute;
-    height: 20rem;
-    border-radius: 500px;
-    top: -37%;
-    left: 29%;
-    border-width: 10rem;
-    border-color: white;
-  }
-  .container-1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    top: -29%;
+    left: 31%;
   }
 
   .h1-1 {
-    text-align: center;
-    padding-top: 13rem;
-    margin: 0;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 3rem;
-    letter-spacing: 6px;
-    border-bottom: 4px solid rgb(222, 226, 228);
-    padding-bottom: 1rem;
-    width: 80%;
+    padding-top: 12rem;
   }
-  .p-1 {
-    text-align: center;
-    font-size: 1rem;
-    font-family: "Nunito Sans", sans-serif;
-    letter-spacing: 6px;
-    width: 80%;
-    padding: 10px;
+  .p-2 {
+    letter-spacing: 1px;
+  }
+
+  .container-2 {
+    width: 55rem;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   /* For mobile phones: */
+  body {
+    padding: 2rem;
+  }
   .h-img {
-    transform: translateY(3px);
-    top: 10rem;
     height: 12rem;
-    width: 25rem;
-    border-radius: 20px 20px 0px 0px;
+    width: 24rem;
   }
   .presentation-card {
-    width: 25rem;
-    height: 28rem;
+    width: 24rem;
+    height: 32rem;
   }
 
   .lotta-img {
-    position: absolute;
     height: 13rem;
-    border-radius: 500px;
-    top: -23%;
-    left: 25%;
+    top: -21%;
+    left: 20%;
   }
 
   .h1-1 {
     padding-top: 8rem;
     font-size: 2rem;
     letter-spacing: 6px;
+    width: 90%;
+  }
+  .p-1 {
+    padding: 1rem;
+  }
+  .p-2 {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+  }
+
+  .p-3 {
+    width: 95%;
+  }
+
+  .li {
+    width: 90%;
+  }
+
+  .container-2 {
+    width: 24rem;
+    flex-direction: column;
+  }
+  .column1 {
+    padding: 10px;
+    width: 90%;
+  }
+
+  .column2 {
     width: 90%;
   }
 }
