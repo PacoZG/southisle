@@ -99,7 +99,7 @@ const PresentationCard = () => {
             <h3 className="h3" style={{ fontSize: "16px" }}>
               Head Waiter, Kämp Oy
             </h3>
-            <h4 className="h4">1.7.2016-31.1.2020</h4>
+            <h4 className="h4">1.7.2016 - 31.1.2020</h4>
             <h4 className="h4">Responsabilities:</h4>
             <ul className="ul-work">
               <li className="li">LHW standards</li>
@@ -112,7 +112,7 @@ const PresentationCard = () => {
             <h3 className="h3" style={{ fontSize: "16px" }}>
               Restaurant Manager, EF-Restaurants
             </h3>
-            <h4 className="h4">20.1.2020 - On going (layoff)</h4>
+            <h4 className="h4">15.4.2015 - 5.8.2016</h4>
             <h4 className="h4">Responsabilities:</h4>
             <ul className="ul-work">
               <li className="li">Opening and consulting on ﬁrst restaurant</li>
@@ -123,7 +123,7 @@ const PresentationCard = () => {
               Head Waiter/Event Coordinator Palace <br /> Kämp Ravintolat
               Oy/Royal Ravintolat Oy
             </h3>
-            <h4 className="h4">1.5.2009-14.4.2015</h4>
+            <h4 className="h4">1.5.2009 - 14.4.2015</h4>
             <h4 className="h4">Responsabilities:</h4>
             <ul className="ul-work">
               <li className="li">Meeting and Event Management</li>
