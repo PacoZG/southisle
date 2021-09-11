@@ -36,7 +36,7 @@ body {
   background: white;
   border-radius: 0px 0px 20px 20px;
   width: 1120px;
-  height: 496px;
+  height: 500px;
   box-shadow: 640px;
 }
 
@@ -189,19 +189,33 @@ ul {
 
 .footer-alignment {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  background-color: white;
+  margin-top: 4px;
+  border-radius: 0px 0px 20px 20px;
+  width: 1120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .footer {
-  margin-top: 4px;
-  background-color: white;
-  border-radius: 0px 0px 20px 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 50px;
-  padding: 10px;
-  width: 1100px;
+}
+
+.my-card {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 @media (max-width: 1120px) {
@@ -212,7 +226,7 @@ ul {
   }
   .presentation-card {
     width: 880px;
-    height: 560px;
+    height: 600px;
   }
   .lotta-img {
     top: -29%;
@@ -238,8 +252,12 @@ ul {
     margin: 4px;
   }
 
+  .footer-alignment {
+    width: 880px;
+  }
+
   .footer {
-    width: 860px;
+    width: 100%;
   }
 }
 
@@ -315,9 +333,11 @@ ul {
     display: flex;
     justify-content: center;
     width: 380px;
+    border-radius: 20px 20px 20px 20px;
   }
 
   .footer {
+    width: 100%;
     border-radius: 10px 10px 10px 10px;
   }
 }

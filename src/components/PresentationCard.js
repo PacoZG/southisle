@@ -138,22 +138,32 @@ const PresentationCard = () => {
             </h3>
           </div>
         </div>
+
         <div className="footer-alignment">
           <div className="footer">
             <a
               href="https://www.linkedin.com/in/charlottasoderholm/"
               target="blank"
             >
-              <LinkedinIcon size={40} borderRadius={10} />
+              <LinkedinIcon size={44} borderRadius={10} />
             </a>
             <a
               href="https://wa.me/358405318180?text=I%20will%20like%20to%20contact%20you%20to%20arrange%20an%20interview"
               target="blank"
             >
-              <WhatsappIcon size={40} borderRadius={10} />
+              <WhatsappIcon size={44} borderRadius={10} />
             </a>
             <a href="mailto:charlotta.soderholm@pp.inet.fi" target="blank">
-              <EmailIcon size={40} borderRadius={10} />
+              <EmailIcon size={44} borderRadius={10} />
+            </a>
+          </div>
+          <div className="my-card">
+            <p>Developed by</p>
+            <a
+              href="https://www.linkedin.com/in/francisco-zavala"
+              target="blank"
+            >
+              <LinkedinIcon size={32} round={true} />
             </a>
           </div>
         </div>
